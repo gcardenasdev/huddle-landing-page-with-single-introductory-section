@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+
+}
+/* Header */
+
+.logo {
+  width: 30%;
+  margin: 1.25rem 0 3.750em 1.875rem;
+}
+
+/* END Header */
+
+/* Main Content */
+
+main {
+  margin: 0 9%;
+  text-align: center;
+}
+
+.mockup {
+  width: 96%;
+
+}
+
+.title {
+  margin-top: 3.125em;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.intro {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.btn {
+  margin: 0.625rem auto;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.125em;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 50px;
+  border-style: none;
+  box-shadow:  0 2px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.icons {
+  display: flex;
+  margin: 3.75rem 0;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: white;
+  margin-left: 0.625rem;
+  width: 30px;
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 100%;
+}
+
+/* END Main Content */
+
+/* Footer */
+
+.attribution {
+  font-size: 0.688em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3.125rem;
+}
+.attribution a {
+  color: hsl(0, 0%, 84.7%);
+ }
+
+ /* END Footer */
+
+ /* Desktop Styles */
+
+@media only screen and (min-width: 76.25em) {
+
+  body {
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Header */
+
+  header {
+    margin: 0.9375rem 0  1.5625rem;
+  }
+
+  .logo {
+    width: 200px;
+    margin-left: 2.7rem;
+
+  }
+
+  /* END Header */
+
+  /* Main Content */
+
+  main {
+    display: flex;
+    margin-left: 3.125rem;
+    margin-right: 2.5rem;
+    text-align: left;
+  }
+  .mockup {
+    width: 600px;
+
+  }
+
+  .title {
+    font-size: 2.5em;
+    margin: 3.125rem 0 1.25rem 3.125rem;
+    line-height: 1.6;
+  }
+
+  .intro {
+    font-size: 1.125em;
+    margin: 0 0 1.25rem 3.125rem;
+    line-height: 1.6;
+  }
+
+  .btn {
+    height: 56px;
+    margin-left: 3.125rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6.25rem;
+  }
+
+  /* END Main Content */
+
+  }
